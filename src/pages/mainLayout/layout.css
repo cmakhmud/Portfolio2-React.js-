@@ -1,0 +1,126 @@
+.backGroundPage {
+    background: rgb(83, 81, 175);
+    background: radial-gradient(circle, rgba(83, 81, 175, 1) 0%, rgba(11, 9, 82, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bgColor{
+    background-color: #070640;
+    transition: background-color 400ms all;
+}
+
+.layoutHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    transition: background-color 400ms linear;
+}
+
+.layoutHeaderActive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #090726;
+    transition: background-color 400ms linear;
+    position:fixed;
+}
+
+.h1 {
+    width: 25%;
+    color: white
+}
+
+.navLinks {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.isActive {
+    color: red;
+    text-decoration: solid;
+}
+
+.noActive {
+    color: white;
+    text-decoration: none;
+}
+
+.LetsTalk {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contactButton {
+    width: 150px;
+    height: 60px;
+    border: 1px solid red;
+    font-size: 20px;
+    background-color: #0D0B69;
+    color: white;
+}
+
+.Icons {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #212374;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.1s all;
+}
+
+.icon:hover {
+    box-shadow: 6px 6px 40px 10px #212374;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #121151;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    position: relative;
+}
+
+.outlet {
+    min-height: 100vh;
+}
